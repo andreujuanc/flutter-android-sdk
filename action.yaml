@@ -1,2 +1,6 @@
 name: flutter-android-sdk
 description: Flutter, Node, Firebase, Java, Android
+
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'
