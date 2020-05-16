@@ -3,5 +3,4 @@ description: Flutter, Node, Firebase, Java, Android
 
 runs: 
   using: 'docker'
-  image: 'Action.Dockerfile'
-  #image: 'docker://andreujuanc/flutter-android:latest'
+  image: 'docker://andreujuanc/flutter-android-github-action:latest'
