@@ -43,3 +43,4 @@ RUN node -v
 RUN npm -v
 RUN flutter -v
 
+ENTRYPOINT ["flutter"]
