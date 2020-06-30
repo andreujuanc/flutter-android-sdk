@@ -6,8 +6,9 @@ RUN apt install usbutils -y
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash
 RUN apt-get install nodejs -y
 
-#FIRESTORE CLI
-RUN npm install -g firebase-tools
+# Install Firesbase tools CLI and emulators
+RUN npm install -g firebase-tools && \
+  npm install -g @google-cloud/functions-emulator
 
 # Setup new user
 RUN useradd -ms /bin/bash developer
